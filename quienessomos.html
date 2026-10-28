@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flores Medellín | Arte Floral & Envíos a Domicilio</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#inicio" class="logo">
+                <svg viewBox="0 0 24 24">
+                    <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4C13.5,4 15,5.2 15,7C15,8.5 13.8,9.8 12.5,11.2L12,11.7L11.5,11.2C10.2,9.8 9,8.5 9,7C9,5.2 10.5,4 12,4M7,10C8.5,10 9.8,11.2 11.2,12.5L11.7,13L11.2,13.5C9.8,14.8 8.5,16 7,16C5.2,16 4,14.5 4,13C4,11.5 5.2,10 7,10M17,10C18.8,10 20,11.5 20,13C20,14.5 18.8,16 17,16C15.5,16 14.2,14.8 12.8,13.5L12.3,13L12.8,12.5C14.2,11.2 15.5,10 17,10M12,14.3L12.5,14.8C13.8,16.2 15,17.5 15,19C15,20.8 13.5,22 12,22C10.5,22 9,20.8 9,19C9,17.5 10.2,16.2 11.5,14.8L12,14.3Z"/>
+                </svg>
+                Flores Medellín
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienessomos.html">Quiénes Somos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio">
+        <h1>Quiénes Somos</h1>
+        <p>Somos una floristería antioqueña que cuida cada ramo, cada detalle y cada emoción con la frescura de Medellín.</p>
+        <a href="#quienes-somos" class="btn">Nuestra Historia</a>
+    </section>
+    <section id="quienes-somos">
+        <h2 class="section-title">Quiénes Somos</h2>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="/images/buenas_practicas1.jpg" alt="Floristería en Medellín">
+            </div>
+            <div class="about-text">
+                <h3>Floristas Tradicionales Antioqueños</h3>
+                <p>En <strong>Flores Medellín</strong> somos una floristería nacida en Medellín, inspirada en la tradición floral de Antioquia y en el carácter cálido de la ciudad. Conectamos la belleza de las flores frescas con la atención humana y cercana que caracteriza a nuestra región.</p>
+                <p>Nuestra misión es crear arreglos florales auténticos, cuidadosos y personalizados para acompañar momentos especiales, celebrar la vida y llevar alegría a cada hogar y cada ocasión.</p>
+                <p>Trabajamos con flores seleccionadas de proveedores locales y de exportación, cuidando la calidad, la frescura y el diseño para que cada entrega hable con elegancia.</p>
+            </div>
+        </div>
+    </section>
+    <section class="values">
+        <h2 class="section-title">Nuestra Filosofía</h2>
+        <div class="product-grid">
+            <div class="card">
+                <div class="card-body">
+                    <h4>La Flor como Historia</h4>
+                    <p>Cada ramo cuenta una historia: una emoción, una celebración, un recuerdo o un gesto de cariño.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4>Frescura y Calidad</h4>
+                    <p>Seleccionamos flores con atención a la temporada, la textura, el olor y la duración para ofrecer arreglos vibrantes.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4>Servicio Cerca de Ti</h4>
+                    <p>Entregamos con puntualidad en Medellín y el área metropolitana para acompañar a tus seres queridos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2 class="section-title">Contacto & Ubicación</h2>
+        <div class="contact-container">
+            <form class="contact-form" action="#" method="post">
+                <input type="text" placeholder="Tu Nombre" required>
+                <input type="email" placeholder="Correo Electrónico" required>
+                <input type="tel" placeholder="Teléfono / WhatsApp" required>
+                <textarea rows="5" placeholder="¿Qué arreglo te gustaría encargar?" required></textarea>
+                <button type="submit" class="btn">Enviar Pedido</button>
+            </form>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63458.12328014589!2d-75.60252136034177!3d6.24420327389851!2m3!1f0!f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428dfb80fad05%3A0x42137cfcc7b53b56!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1700000000000!5m2!1ses!2sco" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- Boton Flotante de Whatsapp -->
+<div class="whatsapp-container">
+    <div class="whatsapp-tooltip" id="waTooltip">
+        ¡Hola! 👋 ¿Necesitas ayuda con tu pedido?
+        <span class="tooltip-close" onclick="closeTooltip(event)">&times;</span>
+    </div>
+    <a href="#" id="waBtn" class="whatsapp-btn" target="_blank" aria-label="Chat en WhatsApp">
+        <svg viewBox="0 0 32 32" class="whatsapp-icon">
+            <path d="M16 2a13 13 0 0 0-11.27 19.52L3 29l7.7-1.93A13 13 0 1 0 16 2zm0 23.83a10.8 10.8 0 0 1-5.52-1.51l-.4-.24-4.58 1.15 1.22-4.47-.26-.41A10.82 10.82 0 1 1 16 25.83zm5.93-8.11c-.32-.16-1.92-.95-2.22-1.06s-.51-.16-.73.16-.84 1.06-1.03 1.28-.38.24-.7.08a8.84 8.84 0 0 1-2.61-1.61 9.77 9.77 0 0 1-1.81-2.25c-.19-.32 0-.49.15-.65s.32-.38.48-.57a2.22 2.22 0 0 0 .32-.53.59.59 0 0 0 0-.56c-.08-.16-.73-1.76-1-2.41s-.54-.54-.74-.55h-.63a1.21 1.21 0 0 0-.88.41A3.68 3.68 0 0 0 6.5 14.5a6.41 6.41 0 0 0 1.34 3.4 14.7 14.7 0 0 0 5.62 4.96c2.32 1 2.79.8 3.3.75a2.81 2.81 0 0 0 1.86-1.31 2.29 2.29 0 0 0 .16-1.31c-.07-.11-.23-.19-.55-.35z"/>
+        </svg>
+    </a>
+</div>
+<div></div>
+   <footer class="site-footer">
+  <div class="footer-container">
+    <!-- Columna 1: Marca y Sobre Nosotros -->
+    <div class="footer-brand">
+      <h3 class="footer-logo">Flores Medellín</h3>
+      <p class="footer-tagline">Creando momentos inolvidables con la belleza de nuestras flores locales.</p>
+      <p class="footer-address">
+        <i class="icon-location"></i> Carrera 43A #1-50, El Poblado, Medellín, Colombia
+      </p>
+    </div>
+
+    <!-- Columna 2: Enlaces Rápidos -->
+    <div class="footer-nav">
+      <h4 class="footer-title">Enlaces Directos</h4>
+      <ul>
+        <li><a href="/catálogo">Catálogo de Flores</a></li>
+        <li><a href="/ocasiones">Ocasiones Especiales</a></li>
+        <li><a href="/nosotros">Sobre Nosotros</a></li>
+        <li><a href="/contacto">Contacto</a></li>
+      </ul>
+    </div>
+
+    <!-- Columna 3: Atención al Cliente -->
+    <div class="footer-nav">
+      <h4 class="footer-title">Soporte</h4>
+      <ul>
+        <li><a href="/preguntas-frecuentes">Preguntas Frecuentes</a></li>
+        <li><a href="/envios">Políticas de Envío</a></li>
+        <li><a href="/terminos">Términos y Condiciones</a></li>
+        <li><a href="/privacidad">Política de Privacidad</a></li>
+      </ul>
+    </div>
+
+    <!-- Columna 4: Redes Sociales -->
+    <div class="footer-social-col">
+      <h4 class="footer-title">Síguenos</h4>
+      <div class="social-links">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-icon">Facebook</a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-icon">Instagram</a>
+        <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="social-icon">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Línea Inferior: Derechos de Autor -->
+  <div class="footer-bottom">
+    <p>&copy; 2026 Flores Medellín. Todos los derechos reservados.</p>
+  </div>
+</footer>
+    <script src="/script.js"></script>
+</body>
+</html>
